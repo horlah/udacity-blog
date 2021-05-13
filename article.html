@@ -6,7 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet" />
-		<title>Blog</title>
+		<title>Blog | In the Beginning of HTML</title>
+		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/icons.css" />
 		<link rel="stylesheet" href="./css/article-structure.css" />
@@ -19,7 +20,7 @@
 				<a href="#">
 					<i class="gg-search"></i>
 				</a>
-				<a href="#">Subscribe</a>
+				<a href="#subscribe">Subscribe</a>
 			</nav>
 		</header>
 
@@ -71,7 +72,7 @@
 
 				<picture>
 					<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="random image" />
-					<p>Random Image</p>
+					<p>Random image from Pixabay</p>
 				</picture>
 
 				<p class="article-text">
@@ -129,6 +130,19 @@
 				</div>
 			</aside>
 		</main>
+
+		<form action="#" class="card" id="subscribe">
+			<section>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" autocomplete="email" id="email" />
+			</section>
+			<section>
+				<label for="full-name">Full Name</label>
+				<input type="text" name="full name" id="full-name" autocomplete="name" id="full-name" />
+			</section>
+
+			<button>Subsribe</button>
+		</form>
 
 		<footer>
 			<p>😎</p>

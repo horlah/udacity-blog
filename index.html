@@ -7,10 +7,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet" />
 		<title>Blog</title>
+		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="stylesheet" href="./css/icons.css" />
 		<link rel="stylesheet" href="./css/index.css" />
 	</head>
+
 	<body>
 		<header>
 			<a href="/"><h1>Blog</h1></a>
@@ -18,7 +20,7 @@
                 <a href="#">
                     <i class="gg-search"></i>
                 </a>
-                <a href="#">Subscribe</a>
+                <a href="#subscribe">Subscribe</a>
             </nav>
 		</header>
 
@@ -125,6 +127,19 @@
 					</a>
 				</li>
 			</ul>
+
+            <form action="#" class="card" id="subscribe">
+                <section>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" autocomplete="email" id="email">
+                </section>
+                <section>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="full name" id="full-name" autocomplete="name" id="full-name">
+                </section>
+
+                <button>Subsribe</button>
+            </form>
 		</main>
 
         <footer>
