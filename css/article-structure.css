@@ -1,0 +1,15 @@
+main {
+	display: grid;
+	grid-template-columns: 450px 240px;
+	gap: 0 60px;
+}
+
+@media (max-width: 700px) {
+	main {
+		grid-template-columns: 1fr;
+	}
+
+	aside {
+		margin-top: 60px;
+	}
+}
