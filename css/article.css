@@ -1,3 +1,8 @@
+@import url(../CSS/reset.css);
+@import url(../CSS/icons.css);
+@import url(../CSS/style.css);
+@import url(../CSS/article-structure.css);
+
 article h3 {
 	margin-top: 30px;
 	font-size: 1.2rem;
@@ -14,14 +19,14 @@ li {
 	margin-bottom: 15px;
 }
 
-article picture {
+article figure {
 	display: block;
 	margin: 25px 0;
 }
 
-article picture p {
+article figure figcaption {
 	text-align: center;
-	margin: 0;
+	font-size: 0.9rem;
 }
 
 article img {

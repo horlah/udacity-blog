@@ -7,11 +7,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,600;1,500&display=swap" rel="stylesheet" />
 		<title>Blog | In the Beginning of HTML</title>
-		<link rel="stylesheet" href="./css/reset.css" />
-		<link rel="stylesheet" href="./css/style.css" />
-		<link rel="stylesheet" href="./css/icons.css" />
-		<link rel="stylesheet" href="./css/article-structure.css" />
-		<link rel="stylesheet" href="./css/article.css" />
+		<link rel="stylesheet" href="../CSS/article.css" />
 	</head>
 	<body>
 		<header>
@@ -27,7 +23,7 @@
 		<main>
 			<article>
 				<div class="article-tag">HTML</div>
-				<a href="./article.html"><h2 class="article-title">In the Beginning of HTML</h2></a>
+				<a href="..//article.html"><h2 class="article-title">In the Beginning of HTML</h2></a>
 				<div class="article-time">12th May, 2020</div>
 				<p class="article-text">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores totam cum eum sapiente officiis autem saepe, omnis enim! Cupiditate repudiandae ut aspernatur voluptate fuga
@@ -55,13 +51,12 @@
 					<li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et adipisci id distinctio dolor quis nemo</li>
 				</ol>
 
-				<p>
+				<q>
 					<em>
-						<span>"</span>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor quaerat quae! Debitis aliquid ducimus nesciunt ea. Odio tempore provident, illum cupiditate quisquam
 						explicabo sit! Unde tempora qui cupiditate ducimus?
 					</em>
-				</p>
+				</q>
 
 				<p class="article-text">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores totam cum eum sapiente officiis autem saepe, omnis enim! Cupiditate repudiandae ut aspernatur voluptate fuga
@@ -70,10 +65,10 @@
 					totam nam!
 				</p>
 
-				<picture>
+				<figure>
 					<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="random image" />
-					<p>Random image from Pixabay</p>
-				</picture>
+					<figcaption>Random image from Pixabay</figcaption>
+				</figure>
 
 				<p class="article-text">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maiores totam cum eum sapiente officiis autem saepe, omnis enim! Cupiditate repudiandae ut aspernatur voluptate fuga
@@ -99,7 +94,7 @@
 			<aside>
 				<h2>Author</h2>
 				<div>
-					<img src="./img/profile-img.jpg" alt="profile image" />
+					<img src="../images/profile-img.jpg" alt="profile image" />
 					<p>
 						<span>Name:</span>
 						Emmanuel Aina
@@ -134,11 +129,11 @@
 		<form action="#" class="card" id="subscribe">
 			<section>
 				<label for="email">Email</label>
-				<input type="email" name="email" id="email" autocomplete="email" id="email" />
+				<input type="email" name="email" id="email" autocomplete="email" id="email" placeholder="emmanuel@aina.com" required />
 			</section>
 			<section>
 				<label for="full-name">Full Name</label>
-				<input type="text" name="full name" id="full-name" autocomplete="name" id="full-name" />
+				<input type="text" name="full name" id="full-name" autocomplete="name" id="full-name" placeholder="John Papa" required />
 			</section>
 
 			<button>Subsribe</button>
